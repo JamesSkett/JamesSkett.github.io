@@ -1,14 +1,7 @@
 body {
-    background-color: #e6e6ff;
-}
-
-h1 {
-	font-family: impact;
-    color: black;
-    text-align: center;
-}
-
-p {
-    font-family: impact;
-    font-size: 20px;
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lucida Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
 }
