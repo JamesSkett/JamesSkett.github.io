@@ -1,7 +1,7 @@
 body 
 {
-    background-color: #bfbfbf;
-	color: #000305;
+    background-image: url("images/1.jpg");
+	color: white;
 	font-size: 87.5%;
 	font-family: Arial, 'Lucida Sans Unicode';
 	line-height: 1.5;
@@ -28,6 +28,129 @@ a:hover, a:active
     margin: 0 auto;
     width: 70%;
     clear: both;
+}
+
+#wrapper 
+{
+    display:table;
+    width:100%;
+}
+
+#row
+{
+    display: table-row;
+}
+
+#picSection 
+{
+    display:table-cell;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+#contactSection 
+{
+    display:table-cell;
+    width:200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#socialSection 
+{
+    display:table-cell;
+    width:200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.fa-facebook
+{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+.fa-facebook:hover
+{
+    background-color: #3d5b99;
+}
+
+.fa-twitter 
+{
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+.fa-twitter:hover
+{
+    background-color: #00aced;
+}
+
+.fa-linkedin
+{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+.fa-linkedin:hover
+{
+    background-color: #0073a4;
+}
+
+.fa-github
+{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+.fa-github:hover
+{
+    background-color: #6e5494;
+}
+
+#socialSection a
+{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+#socialSection a:hover
+{
+    background-color: #FFF;
+    color: black;
 }
 
 .mainHeader img
@@ -96,7 +219,7 @@ a:hover, a:active
 
 .topContent
 {
-    background-color: #FFF;
+    background-color: #b3b3b3;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -106,7 +229,7 @@ a:hover, a:active
 
 .bottomContent
 {
-    background-color: #FFF;
+    background-color: #b3b3b3;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -118,7 +241,7 @@ a:hover, a:active
 {
     width: 21%;
     float: left;
-    background-color: #FFF;
+    background-color: #b3b3b3;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -130,7 +253,7 @@ a:hover, a:active
 {
     width: 21%;
     float: left;
-    background-color: #FFF;
+    background-color: #b3b3b3;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -142,7 +265,7 @@ a:hover, a:active
 {
     width: 21%;
     float: left;
-    background-color: #FFF;
+    background-color: #b3b3b3;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -153,7 +276,7 @@ a:hover, a:active
 
 .mainFooter
 {
-    width 100%;
+    width: 100%;
     float: left;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -166,6 +289,11 @@ a:hover, a:active
 {
     width: 92%;
     margin: 2% auto;
+}
+
+.mainFooter a
+{
+    float: right;
 }
 
 
