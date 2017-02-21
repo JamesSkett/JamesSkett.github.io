@@ -222,6 +222,13 @@ a:hover, a:active
     float: left;
 }
 
+.content2
+{
+    width: 70%;
+    text-align: center;
+    padding-left: 15%
+}
+
 .topContent
 {
     background-color: #202938;
