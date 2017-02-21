@@ -149,8 +149,8 @@ a:hover, a:active
 
 #socialSection a:hover
 {
-    background-color: #FFF;
-    color: black;
+   
+    color: aqua;
 }
 
 .mainHeader img
@@ -224,7 +224,7 @@ a:hover, a:active
 
 .topContent
 {
-    background-color: #b3b3b3;
+    background-color: #202938;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -234,7 +234,7 @@ a:hover, a:active
 
 .bottomContent
 {
-    background-color: #b3b3b3;
+    background-color: #202938;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -242,41 +242,50 @@ a:hover, a:active
     margin-top: 3%;
 }
 
+.Title
+{
+    width: 21%;
+    float: left;
+    margin-left: 2.5%;
+    margin-bottom: -1.5%;
+    padding: 0% 1%;
+}
+
 .top-sidebar
 {
     width: 21%;
     float: left;
-    background-color: #b3b3b3;
+    background-color: #202938;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     margin: 1.5% 0 2% 3%;
-    padding: 2% 3%;
+    padding: .5% 3%;
 }
 
 .middle-sidebar
 {
     width: 21%;
     float: left;
-    background-color: #b3b3b3;
+    background-color: #202938;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     margin-left: 3%;
     margin-bottom: 2%;
-    padding: 2% 3%;
+    padding: .5% 3%;
 }
 .bottom-sidebar
 {
     width: 21%;
     float: left;
-    background-color: #b3b3b3;
+    background-color: #202938;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     margin-left: 3%;
     margin-bottom: 2%;
-    padding: 2% 3%;
+    padding: .5% 3%;
 }
 
 .mainFooter
