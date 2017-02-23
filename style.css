@@ -31,7 +31,8 @@ a:hover, a:active
 #wrapper 
 {
     display:table;
-    width:100%;
+    width:70%;
+    padding-left: 15%
 }
 
 #row
@@ -235,6 +236,41 @@ a:hover, a:active
     -webkit-border-radius: 5px;
     padding: 1% 2%;
     margin-top: 1%;
+}
+
+#Platfall_IMG:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG1
+{
+    padding-right: 2%;
+}
+
+#AmazingArchery_IMG1:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG2:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG2
+{
+    padding-left: 2%;
+}
+
+#OneWayOut_IMG:hover
+{
+    opacity: 0.5;
+}
+
+#DungeonRoguelike_IMG:hover
+{
+    opacity: 0.5;
 }
 
 .bottomContent
