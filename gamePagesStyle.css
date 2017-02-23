@@ -215,12 +215,6 @@ a:hover, a:active
     color: black;
 }
 
-.content
-{
-    width: 70%;
-    float: left;
-}
-
 .content2
 {
     width: 90%;
@@ -238,41 +232,6 @@ a:hover, a:active
     margin-top: 1%;
 }
 
-#Platfall_IMG:hover
-{
-    opacity: 0.5;
-}
-
-#AmazingArchery_IMG1
-{
-    padding-right: 2%;
-}
-
-#AmazingArchery_IMG1:hover
-{
-    opacity: 0.5;
-}
-
-#AmazingArchery_IMG2:hover
-{
-    opacity: 0.5;
-}
-
-#AmazingArchery_IMG2
-{
-    padding-left: 2%;
-}
-
-#OneWayOut_IMG:hover
-{
-    opacity: 0.5;
-}
-
-#DungeonRoguelike_IMG:hover
-{
-    opacity: 0.5;
-}
-
 .bottomContent
 {
     background-color: #202938;
@@ -282,52 +241,6 @@ a:hover, a:active
     padding: 1% 2%;
     margin-top: 3%;
     text-align: left;
-}
-
-.Title
-{
-    width: 21%;
-    float: left;
-    margin-left: 2.5%;
-    margin-bottom: -1.5%;
-    padding: 0% 1%;
-}
-
-.top-sidebar
-{
-    width: 21%;
-    float: left;
-    background-color: #202938;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin: 1.5% 0 2% 3%;
-    padding: .5% 3%;
-}
-
-.middle-sidebar
-{
-    width: 21%;
-    float: left;
-    background-color: #202938;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin-left: 3%;
-    margin-bottom: 2%;
-    padding: .5% 3%;
-}
-.bottom-sidebar
-{
-    width: 21%;
-    float: left;
-    background-color: #202938;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin-left: 3%;
-    margin-bottom: 2%;
-    padding: .5% 3%;
 }
 
 .mainFooter
