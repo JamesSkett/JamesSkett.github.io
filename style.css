@@ -161,6 +161,7 @@ a:hover, a:active
 
 .mainHeader nav
 {
+    text-align: center;
     background-color: #666;
     height: 40px;
     border-radius: 5px;
@@ -343,7 +344,7 @@ a:hover, a:active
 .mainFooter p
 {
     width: 92%;
-    margin: 2% auto;
+    margin-left: 3.5%;
 }
 
 .mainFooter a
