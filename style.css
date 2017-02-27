@@ -1,6 +1,6 @@
 body 
 {
-    background-image: url("images/1.jpg");
+    background-image: url(images/carbonBlue.png);
 	color: white;
 	font-size: 87.5%;
 	font-family: Century Gothic, sans-serif;
@@ -49,20 +49,9 @@ a:hover, a:active
     padding: 20px;
 }
 
-#contactSection 
-{
-    display:table-cell;
-    width:200px;
-    text-align: center;
-    padding-top: 50px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
 #socialSection 
 {
-    display:table-cell;
+    display: table-cell;
     width:200px;
     text-align: center;
     padding-top: 50px;
@@ -161,8 +150,9 @@ a:hover, a:active
 
 .mainHeader nav
 {
+    opacity: 0.5;
     text-align: center;
-    background-color: #666;
+    background-color: skyblue;
     height: 40px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -183,7 +173,7 @@ a:hover, a:active
 
 .mainHeader nav a:link, .mainHeader nav a:visited
 {
-    color: #FFF;
+    color: black;
     display: inline-block;
     padding: 10px 25px;
     height: 20px;
@@ -202,7 +192,7 @@ a:hover, a:active
     -webkit-border-radius: 5px;
 }
 
-.mianContent
+.mainContent
 {
     line-height: 25px;
     border-radius: 5px;
@@ -229,15 +219,28 @@ a:hover, a:active
     padding-left: 5%
 }
 
+.topContent img
+{
+    opacity: 1.0;
+}
+
 .topContent
 {
-    background-color: #202938;
+    opacity: 0.5;
+    background-color: skyblue;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 1% 2%;
     margin-top: 1%;
 }
+
+.topContent content
+{
+    color: black;
+}
+
+
 
 #Platfall_IMG:hover
 {
@@ -276,12 +279,18 @@ a:hover, a:active
 
 .bottomContent
 {
-    background-color: #202938;
+    opacity: 0.5;
+    background-color: skyblue;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 1% 2%;
-    margin-top: 3%;
+    margin-top: 1%;
+}
+
+.bottomContent content
+{
+    color: black;
 }
 
 .Title
@@ -295,9 +304,10 @@ a:hover, a:active
 
 .top-sidebar
 {
+    opacity: 0.5;
     width: 21%;
     float: left;
-    background-color: #202938;
+    background-color: skyblue;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -305,23 +315,17 @@ a:hover, a:active
     padding: .5% 3%;
 }
 
+.top-sidebar content
+{
+    color: black;
+}
+
 .middle-sidebar
 {
+    opacity: 0.5;
     width: 21%;
     float: left;
-    background-color: #202938;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    margin-left: 3%;
-    margin-bottom: 2%;
-    padding: .5% 3%;
-}
-.bottom-sidebar
-{
-    width: 21%;
-    float: left;
-    background-color: #202938;
+    background-color: skyblue;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -330,14 +334,40 @@ a:hover, a:active
     padding: .5% 3%;
 }
 
+.middle-sidebar content
+{
+    color: black;
+}
+
+.bottom-sidebar
+{
+    opacity: 0.5;
+    width: 21%;
+    float: left;
+    background-color: skyblue;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 3%;
+    margin-bottom: 2%;
+    padding: .5% 3%;
+}
+
+.bottom-sidebar content
+{
+    color: black;
+}
+
 .mainFooter
 {
+    opacity: 0.5;
+    color: black;
     width: 100%;
     float: left;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    background-color: #666;
+    background-color: skyblue;
     margin: 2% 0;
 }
 
@@ -349,6 +379,7 @@ a:hover, a:active
 
 .mainFooter a
 {
+    color: black;
     float: right;
 }
 
