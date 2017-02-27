@@ -1,0 +1,296 @@
+body 
+{
+    background-image: url(images/carbonBlue.png);
+	color: white;
+	font-size: 87.5%;
+	font-family: Century Gothic, sans-serif;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:lint, a:visited
+{
+}
+
+a:hover, a:active
+{
+}
+
+.body
+{
+    margin: 0 auto;
+    width: 70%;
+    clear: both;
+}
+
+#wrapper 
+{
+    display:table;
+    width:70%;
+    padding-left: 15%
+}
+
+#row
+{
+    display: table-row;
+}
+
+#picSection 
+{
+    display:table-cell;
+    width:200px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+#socialSection 
+{
+    display: table-cell;
+    width:200px;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.fa-facebook
+{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+.fa-facebook:hover
+{
+    background-color: #3d5b99;
+}
+
+.fa-twitter 
+{
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+.fa-twitter:hover
+{
+    background-color: #00aced;
+}
+
+.fa-linkedin
+{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+.fa-linkedin:hover
+{
+    background-color: #0073a4;
+}
+
+.fa-github
+{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+.fa-github:hover
+{
+    background-color: #6e5494;
+}
+
+#socialSection a
+{
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    color: white;
+}
+
+#socialSection a:hover
+{
+   
+    color: aqua;
+}
+
+.mainHeader img
+{
+    width: 30&;
+    height: auto;
+    margin: 2% 0;
+}
+
+.mainHeader nav
+{
+    opacity: 0.5;
+    text-align: center;
+    background-color: skyblue;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul
+{
+    list-style: none;
+    margin 0 auto;
+}
+
+.mainHeader nav ul li
+{
+    float left;
+    display: inline;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited
+{
+    color: black;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader nav .active a:visited
+{
+    background-color: #202938;
+    text-shadow: none;
+}
+
+.mainHeader nav ul li a
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainContent
+{
+    line-height: px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+.mainContent a
+{
+    color: white;
+}
+
+.content2
+{
+    width: 95%;
+    text-align: center;
+    padding-left: 5%
+}
+
+.topContent
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 2%;
+    margin-top: 1%;
+}
+
+#Platfall_IMG:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG1
+{
+    padding-right: 2%;
+}
+
+#AmazingArchery_IMG1:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG2:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG2
+{
+    padding-left: 2%;
+}
+
+#OneWayOut_IMG:hover
+{
+    opacity: 0.5;
+}
+
+#DungeonRoguelike_IMG:hover
+{
+    opacity: 0.5;
+}
+
+.bottomContent
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 2%;
+    margin-top: 1%;
+}
+
+.mainFooter
+{
+    opacity: 0.5;
+    color: black;
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: skyblue;
+    margin: 2% 0;
+}
+
+.mainFooter p
+{
+    width: 92%;
+    margin-left: 3.5%;
+}
+
+.mainFooter a
+{
+    color: black;
+    float: right;
+}
+
+
+
+
