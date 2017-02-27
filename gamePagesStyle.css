@@ -1,6 +1,6 @@
 body 
 {
-    background-image: url("images/1.jpg");
+    background-image: url("images/carbonBlue.png");
 	color: white;
 	font-size: 87.5%;
 	font-family: Century Gothic, sans-serif;
@@ -161,7 +161,9 @@ a:hover, a:active
 
 .mainHeader nav
 {
-    background-color: #666;
+    text-align: center;
+    opacity: 0.5;
+    background-color: skyblue;
     height: 40px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -182,7 +184,7 @@ a:hover, a:active
 
 .mainHeader nav a:link, .mainHeader nav a:visited
 {
-    color: #FFF;
+    color: black;
     display: inline-block;
     padding: 10px 25px;
     height: 20px;
@@ -201,7 +203,7 @@ a:hover, a:active
     -webkit-border-radius: 5px;
 }
 
-.mianContent
+.mainContent
 {
     line-height: 25px;
     border-radius: 5px;
@@ -217,6 +219,7 @@ a:hover, a:active
 
 .content2
 {
+    color: black;
     width: 70%;
     text-align: center;
     padding-left: 15%
@@ -224,7 +227,6 @@ a:hover, a:active
 
 .topContent
 {
-    background-color: #202938;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -234,34 +236,42 @@ a:hover, a:active
 
 .bottomContent
 {
-    background-color: #202938;
+    opacity: 0.5;
+    background-color: skyblue;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     padding: 1% 2%;
-    margin-top: 3%;
-    text-align: left;
+    margin-top: 1%;
+}
+
+.bottomContent header
+{
+    color: black;
 }
 
 .mainFooter
 {
+    opacity: 0.5;
     width: 100%;
     float: left;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    background-color: #666;
+    background-color: skyblue;
     margin: 2% 0;
 }
 
 .mainFooter p
 {
+    color: black;
     width: 92%;
     margin: 2% auto;
 }
 
 .mainFooter a
 {
+    color: black;
     float: right;
 }
 
