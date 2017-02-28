@@ -163,7 +163,6 @@ a:hover, a:active
 {
     text-align: center;
     opacity: 0.5;
-    background-color: skyblue;
     height: 40px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -185,14 +184,16 @@ a:hover, a:active
 .mainHeader nav a:link, .mainHeader nav a:visited
 {
     color: black;
+    background-color: aliceblue;
     display: inline-block;
-    padding: 10px 25px;
+    padding: 10px 50px;
     height: 20px;
 }
 
 .mainHeader nav a:hover, .mainHeader nav a:active, .mainHeader nav .active a:link, .mainHeader nav .active a:visited
 {
     background-color: #202938;
+    color: aliceblue;
     text-shadow: none;
 }
 
@@ -219,8 +220,8 @@ a:hover, a:active
 
 .content2
 {
-    color: black;
-    width: 70%;
+    color: white;
+    width: 71.5%;
     text-align: center;
     padding-left: 15%
 }
@@ -236,8 +237,9 @@ a:hover, a:active
 
 .bottomContent
 {
+    text-align: left;
     opacity: 0.5;
-    background-color: skyblue;
+    background-color: aliceblue;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -258,7 +260,7 @@ a:hover, a:active
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    background-color: skyblue;
+    background-color: aliceblue;
     margin: 2% 0;
 }
 
