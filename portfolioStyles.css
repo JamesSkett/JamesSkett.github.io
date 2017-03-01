@@ -1,6 +1,6 @@
 body 
 {
-    background-image: url("images/carbonBlue.png");
+    background-image: url(images/carbonBlue.png);
 	color: white;
 	font-size: 87.5%;
 	font-family: Century Gothic, sans-serif;
@@ -49,20 +49,9 @@ a:hover, a:active
     padding: 20px;
 }
 
-#contactSection 
-{
-    display:table-cell;
-    width:200px;
-    text-align: center;
-    padding-top: 50px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-}
-
 #socialSection 
 {
-    display:table-cell;
+    display: table-cell;
     width:200px;
     text-align: center;
     padding-top: 50px;
@@ -161,8 +150,8 @@ a:hover, a:active
 
 .mainHeader nav
 {
-    text-align: center;
     opacity: 0.5;
+    text-align: center;
     height: 40px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -206,7 +195,7 @@ a:hover, a:active
 
 .mainContent
 {
-    line-height: 25px;
+    line-height: px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -215,12 +204,11 @@ a:hover, a:active
 
 .mainContent a
 {
-    color: black;
+    color: white;
 }
 
 .content2
 {
-    color: white;
     width: 71.5%;
     text-align: center;
     padding-left: 15%
@@ -235,11 +223,43 @@ a:hover, a:active
     margin-top: 1%;
 }
 
+#Platfall_IMG:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG1
+{
+    padding-right: 2%;
+}
+
+#AmazingArchery_IMG1:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG2:hover
+{
+    opacity: 0.5;
+}
+
+#AmazingArchery_IMG2
+{
+    padding-left: 2%;
+}
+
+#OneWayOut_IMG:hover
+{
+    opacity: 0.5;
+}
+
+#DungeonRoguelike_IMG:hover
+{
+    opacity: 0.5;
+}
+
 .bottomContent
 {
-    text-align: left;
-    opacity: 0.5;
-    background-color: aliceblue;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -247,14 +267,10 @@ a:hover, a:active
     margin-top: 1%;
 }
 
-.bottomContent header
-{
-    color: black;
-}
-
 .mainFooter
 {
     opacity: 0.5;
+    color: black;
     width: 100%;
     float: left;
     border-radius: 5px;
@@ -266,9 +282,8 @@ a:hover, a:active
 
 .mainFooter p
 {
-    color: black;
     width: 92%;
-    margin: 2% auto;
+    margin-left: 3.5%;
 }
 
 .mainFooter a
