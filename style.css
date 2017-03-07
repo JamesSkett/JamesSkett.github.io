@@ -213,6 +213,25 @@ a:hover, a:active
     float: left;
 }
 
+#socialText
+{
+    text-align: center;
+    width: 70%;
+    padding-left: 15%;
+}
+
+#socialContent
+{
+    opacity: 0.5;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 2%;
+    margin-top: 1%;
+}
+
 .topContent img
 {
     opacity: 1.0;
