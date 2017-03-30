@@ -367,6 +367,16 @@ a:hover, a:active
     float: right;
 }
 
+.mainFooter strong
+{
+    color: black;
+    text-align: left;
+}
+
+#HitCount
+{
+    padding-left: 10%;
+}
 
 
 
