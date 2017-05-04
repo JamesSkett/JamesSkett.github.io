@@ -230,6 +230,11 @@ a:hover, a:active
     margin-top: 1%;
 }
 
+#GravSwitch_IMG:hover
+{
+    opacity: 0.5;
+}
+
 #Platfall_IMG:hover
 {
     opacity: 0.5;
