@@ -231,6 +231,30 @@ div.scrollmenu a:hover {
     background-color: #777;
 }
 
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+	border-radius: 10px;
+	background-color: #444444;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: grey;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #153666;
+	background-image: -webkit-linear-gradient(90deg,
+											  transparent,
+											  rgba(0, 0, 0, 0.5) 90%,
+											  transparent,
+											  transparent)
+}
+
 .content2
 {
     width: 80%;
