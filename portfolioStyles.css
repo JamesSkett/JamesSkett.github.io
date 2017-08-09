@@ -238,6 +238,15 @@ div.scrollmenu a:hover {
     padding-left: 11%
 }
 
+.topContent
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 2%;
+    margin-top: 1%;
+}
+
 #GravSwitch_IMG:hover
 {
     opacity: 0.8;
@@ -276,6 +285,15 @@ div.scrollmenu a:hover {
 #DungeonRoguelike_IMG:hover
 {
     opacity: 0.8;
+}
+
+.bottomContent
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 2%;
+    margin-top: 1%;
 }
 
 .mainFooter
