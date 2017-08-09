@@ -202,11 +202,9 @@ a:hover, a:active
 
 .mainContent
 {
-    line-height: px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-
 }
 
 .mainContent a
@@ -214,30 +212,40 @@ a:hover, a:active
     color: white;
 }
 
-.content2
-{
-    width: 71.5%;
-    text-align: center;
-    padding-left: 15%
+div.scrollmenu {
+    background-color: grey;
+    backface-visibility: hidden;
+    overflow: auto;
+    white-space: nowrap;
 }
 
-.topContent
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.content2
 {
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    padding: 1% 2%;
-    margin-top: 1%;
+    width: 80%;
+    text-align: center;
+    padding-left: 11%
 }
 
 #GravSwitch_IMG:hover
 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 #Platfall_IMG:hover
 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 #AmazingArchery_IMG1
@@ -247,36 +255,27 @@ a:hover, a:active
 
 #AmazingArchery_IMG1:hover
 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 #AmazingArchery_IMG2:hover
 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 #AmazingArchery_IMG2
 {
-    padding-left: 2%;
+    padding-left: 0%;
 }
 
 #OneWayOut_IMG:hover
 {
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 #DungeonRoguelike_IMG:hover
 {
-    opacity: 0.5;
-}
-
-.bottomContent
-{
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    padding: 1% 2%;
-    margin-top: 1%;
+    opacity: 0.8;
 }
 
 .mainFooter
