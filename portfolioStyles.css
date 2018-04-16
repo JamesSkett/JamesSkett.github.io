@@ -320,6 +320,11 @@ div.scrollmenu a:hover {
     margin-top: 1%;
 }
 
+.bottomContent link
+{
+    color: aliceblue;
+}
+
 .mainFooter
 {
     opacity: 0.5;

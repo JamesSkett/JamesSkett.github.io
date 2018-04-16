@@ -254,6 +254,11 @@ a:hover, a:active
     margin-top: 1%;
 }
 
+.bottomContent a 
+{
+    color: darkblue;
+}
+
 .bottomContent header
 {
     color: black;
