@@ -221,6 +221,13 @@ a:hover, a:active
     float: left;
 }
 
+#mainText
+{
+    text-align: left;
+    width: 70%;
+    padding-left: 15%;
+}
+
 #socialText
 {
     text-align: center;
@@ -229,6 +236,18 @@ a:hover, a:active
 }
 
 #socialContent
+{
+    opacity: 0.5;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 1% 2%;
+    margin-top: 1%;
+}
+
+#mainBody
 {
     opacity: 0.5;
     color: black;
