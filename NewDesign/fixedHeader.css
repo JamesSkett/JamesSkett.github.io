@@ -119,10 +119,10 @@ a
     opacity: 0.7;
 }
 
-.container {
-  position: relative;
-  width: 50%;
-    order: 
+.container 
+{
+    position: relative;
+    width: 50%;
 }
 
 .container:hover .overlay 
@@ -246,5 +246,5 @@ a
 }
 
 .sticky + .content {
-  padding-top: 102px;
+  padding-top: 10px;
 }
