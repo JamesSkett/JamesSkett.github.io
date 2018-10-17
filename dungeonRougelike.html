@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>BIG-BYTE</title>
+    <title>Dungeon Roguelike</title>
     <link rel="stylesheet" type="text/css" href="fixedHeader.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -18,7 +18,7 @@
 <div class="header" id="myHeader" style="padding-right: 4%">
 
             <h1>
-                Final Major Project
+                Dungeon Roguelike
             </h1>
 </div>
     
@@ -26,9 +26,9 @@
     
         <header>
 			<h2>
-                <a href="https://www.youtube.com/watch?v=_UcYD_U4o08" title="Platfall">
-                    <iframe width="960" height="540" src="https://www.youtube.com/embed/videoseries?list=PLpb8BAtBD2gkV552fZqujBB_MScI-nueP&amp;ecver=2" frameborder="0" allowfullscreen></iframe>
-                </a>
+                
+                <iframe width="960" height="540" src="https://www.youtube.com/embed/Oh_L-eVXeqc" frameborder="0" allowfullscreen></iframe>
+                
             </h2>
         </header>
     
@@ -37,13 +37,11 @@
     
     <div class="content-main">
         <div class="content-text">
-            <p style="font-size: 20px">For my final major project, I wanted to create an adaptive monster AI for a horror game. So, I created a 2D tech demo to show off the AI and what it can do. The AI uses a probabilistic state machine to choose which state to go to and the probabilities for each state change the more the player sees the monster, or the monster sees the player. At the start the monster is cautious and does not go in for a head on attack but as time progresses the monster decisions change. The AI also uses A* pathfinding to navigate the level using the shortest routes and line of sight checks for both player and monster. You can see the some of the testing videos in the playlist above.
-            </p>
-            
-            <h2>Features</h2>
-            <h3>
-                Uses hlsl shaders, C++ code, AABB collisions, A* pathfinding, Probabilistic state machine, Line of sight and Field of view, DirectX 11
-            </h3>
+            <p style="font-size: 20px">
+                Dungeon Roguelike was made for one of my first year university assignments. The aim was to create a simple 2D text game using C++ following an object-oriented approach.<br><br>
+                        The player is trapped inside a dungeon and the only exit (X) is blocked by a boulder (B), the player can only remove the boulder once all of the energy bars (E) that are scattered around the map have been collected. In the dungeon there are also mummies (M) that try and kill the player. The players only defence is the spades (S) that are dotted around the map, once one is collected they player can dig a hole that the mummies can fall down.<br><br>
+                        My game includes some simple AI for the enemies where that will move toward the player when they are close by. I also used a separate file to load in the level and instructions, this allowed me to keep my code a bit cleaner with no large blocks of text.
+            </p>            
         </div>
     </div>
   
